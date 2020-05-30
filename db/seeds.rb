@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+hair = OilCategory.create(name: "Hair")
+skin = OilCategory.create(name: "Skin")
+essential = OilCategory.create(name: "Essential")
